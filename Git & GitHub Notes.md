@@ -1,4 +1,5 @@
 # An Introduction to Git and GitHub by Brian Yu
+### _Sameera Rajaratne_
 
 __What is Git?__
 1. Keep track of changes to code.
