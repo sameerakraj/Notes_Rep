@@ -28,3 +28,8 @@ Zero-index: to start counting at 0. Arrays in C are zero-indexed.
 __strings__
 
 A string is an array of characters (chars).
+
+String delimiter is the NUL (\0) character to delineate where one string ends and where the next one begins.
+This sentinel value demarkates the end of the string.
+
+0000 0000 = \0 (NUL)
