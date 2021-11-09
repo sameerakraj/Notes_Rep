@@ -18,16 +18,16 @@ __array__
 
 Another type of data that allows you to store multiple values of the same type back to back to back (contiguously).
 
-int scores[3]; // declaring an array of size 3, storing integers
+    int scores[3]; // declaring an array of size 3, storing integers
 
-scores[0] = 72;
-scores[1] = 73;
+      scores[0] = 72;
+      scores[1] = 73;
 
 Zero-index: to start counting at 0. Arrays in C are zero-indexed.
 
 __strings__
 
-A string is an array of characters (chars).
+A string is just an array of characters (chars).
 
 String delimiter is the NUL (\0) character to delineate where one string ends and where the next one begins.
 This sentinel value demarkates the end of the string.
@@ -36,8 +36,31 @@ This sentinel value demarkates the end of the string.
 
 __for loops__
 
-Declare multiple variables in a for loop
-for (int i = 0, n = strlen(s); i < n; i++)
-{
-  ...
-}
+Declare multiple variables in a _for_ loop
+
+    for (int i = 0, n = strlen(s); i < n; i++)
+    {
+      ...
+    }
+
+__command line arguments__
+
+    #include <stdio.h>
+
+    int main(void)
+    {
+      ...
+    }
+
+None of our programs that we have written take command-line arguments.
+
+Command-line arguments are words after the command in your terminal window.
+
+    #include <stdio.h>
+
+    int main(int argc, string argv[])
+    {
+      ...
+    }
+
+argc: argument count - an integer that stores how many words the
