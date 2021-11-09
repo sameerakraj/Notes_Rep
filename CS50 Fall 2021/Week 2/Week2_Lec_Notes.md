@@ -33,3 +33,11 @@ String delimiter is the NUL (\0) character to delineate where one string ends an
 This sentinel value demarkates the end of the string.
 
 0000 0000 = \0 (NUL)
+
+__for loops__
+
+Declare multiple variables in a for loop
+for (int i = 0, n = strlen(s); i < n; i++)
+{
+  ...
+}
