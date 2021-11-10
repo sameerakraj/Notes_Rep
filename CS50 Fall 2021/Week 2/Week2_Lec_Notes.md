@@ -63,10 +63,10 @@ Command-line arguments are words after the program name in your terminal window.
       ...
     }
 
-argc: argument count - an integer that stores how many words, in total, the human typed at the prompt (CLI)
-argv[]: argument vector - an array of all of the words the human typed at the prompt (CLI)
+argc: argument count - an integer that stores how many words, in total, the human typed at the prompt (CLI).
+argv[]: argument vector - an array of all of the words the human typed at the prompt (CLI).
 
 __exit status__
 
 Main has an ability to signal to the user if execution was successful or not.
-Main automatically returns 0 if program execution was successful.
+If you do not return a value explictly, Main automatically returns 0 if program execution was successful.
